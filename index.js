@@ -1,6 +1,7 @@
 #! /usr/bin/env node 
 import inquirer from "inquirer";
 import chalk from "chalk";
+console.log(chalk.cyan.bold.underline(`\t\n "Welcome To CodeWithSheza - Word Counter" \n`));
 const answers = await inquirer.prompt([
     {
         name: "sentence",
